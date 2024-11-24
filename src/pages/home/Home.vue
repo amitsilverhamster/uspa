@@ -1,7 +1,7 @@
 <template>
    <!-- Banner -->
    <div class=" tw-grid tw-grid-rows-1 tw-grid-cols-1">
-      <div class="tw-bg-gray-600">
+      <div class=" bg-color">
          <p class="tw-text-white tw-text-center tw-py-10 tw-text-lg tw-font-medium">Image Banner</p>
       </div>
    </div>
@@ -131,4 +131,9 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 </script>
 
-<style scoped></style>
+<style scoped>
+ .bg-color{
+      background-color: #7f7f7f;
+ }
+
+</style>
