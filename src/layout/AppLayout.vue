@@ -1,11 +1,14 @@
-<script setup>
-</script>
-
 <template>
    <div>
-      <h2 class="tw-flex tw-underline">App Layout</h2>
-      <router-view />
+      <Header />
+      <main>
+         <router-view />
+      </main>
+     
    </div>
 </template>
+<script setup>
+import Header from "@/components/Header.vue";
+</script>
 
 <style scoped></style>
